@@ -1,0 +1,29 @@
+img {
+    height: 3rem;
+    border-radius: 50px;
+}
+
+nav{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    justify-content: center;
+}
+
+.logo-container{
+    margin-right: 1rem;
+}
+
+.items>.item {
+    margin: 1rem;
+    text-decoration: none;
+    cursor:pointer;  
+    color: #363636;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.items-border {
+    border-bottom: 3px solid #f65058ff;
+}

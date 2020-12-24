@@ -1,0 +1,30 @@
+.card {
+    width: 12rem;
+    height:  12rem;
+    text-align: center;
+    margin: 2rem;
+    transition: transform 0.2s ease-in;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.fav{
+    color: #FF69B4;
+}
+
+.fa.fa-heart{
+    transition: transform 0.2s ease-in;
+}
+
+.fa.fa-heart:hover{
+    transform: scale(1.2);
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+i{
+    font-size: 2.5rem;
+}

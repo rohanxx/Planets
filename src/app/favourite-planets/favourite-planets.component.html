@@ -1,0 +1,16 @@
+<div class="card-container">
+  <list-item *ngFor="let favouritePlanet of favouritePlanets" [planet]="favouritePlanet"></list-item>
+
+
+  <section class="hero" *ngIf="isEmpty()">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            No Favourite Planet Found
+          </h1>
+        </div>
+      </div>
+  </section>
+</div>
+   
+

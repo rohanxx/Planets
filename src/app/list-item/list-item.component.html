@@ -1,0 +1,18 @@
+<div class="card" [tooltip]="toolTipText" [options]="myOptions">
+  <div class="card-content">
+    <div class="media">
+      <div class="media-content">
+        <p class="title is-4">{{ planet.name }}</p>
+      </div>
+    </div>
+
+    <div class="content" >
+      <span>
+        <i class="fa fa-heart" aria-hidden="true" 
+        [ngClass]="{'fav':isFav()}"
+        (click)="changeStatus()"></i>
+      </span>
+    </div>
+  </div>
+</div>
+

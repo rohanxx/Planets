@@ -1,0 +1,8 @@
+section, .columns {
+    height: 100vh !important;
+    text-align: center;
+}
+
+.title{
+    color: white;
+}
